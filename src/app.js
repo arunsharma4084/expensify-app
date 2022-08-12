@@ -11,9 +11,9 @@ import './styles/styles.scss';
 
 const store = createStore();
 
-store.dispatch(addExpense({description: 'Water Bill', amount: 4500, createdAt: 1500}));
-store.dispatch(addExpense({description: 'Gas Bill', createdAt: 1659785080000}));
-store.dispatch(addExpense({description: 'Rent', amount: 464300, createdAt: 5400}));
+// store.dispatch(addExpense({description: 'Water Bill', amount: 4500, createdAt: 1500}));
+// store.dispatch(addExpense({description: 'Gas Bill', createdAt: 1659785080000}));
+// store.dispatch(addExpense({description: 'Rent', amount: 464300, createdAt: 5400}));
 // store.dispatch(setTextFilter('water'));
 
 // setTimeout(() => {
