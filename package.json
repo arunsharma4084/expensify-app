@@ -8,8 +8,6 @@
     "serve": "live-server public/",
     "build": "webpack --config webpack.prod.js",
     "dev-server": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack",
-    "dev-server": "webpack-dev-server",
     "test": "jest"
   },
   "keywords": [],
