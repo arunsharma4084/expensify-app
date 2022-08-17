@@ -7,7 +7,6 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "dev-server": "webpack-dev-server --config webpack.dev.js --open",
-    "test": "jest",
     "start": "node server/server.js",
     "heroku-postbuild": "npm run build"
   },
@@ -40,6 +39,7 @@
     "webpack-merge": "^5.8.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "^4.9.3"
+    "webpack-dev-server": "^4.9.3",
+    "webpack-merge": "^5.8.0"
   }
 }
