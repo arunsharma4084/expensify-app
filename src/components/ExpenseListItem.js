@@ -7,7 +7,12 @@ function ExpenseListItem(props){
             <Link to={`edit/${props.id}`}>
                 <h3>{props.description}</h3>
             </Link>
-            <p>{props.amount} - {props.createdAt}</p>
+            <p>
+            ₹
+            {parseInt(props.amount) / 100} 
+             - 
+            {new Date(props.createdAt).toLocaleDateString('en-GB', {  year:"numeric", month:"long", day:"numeric"}) }
+            </p>
         </div>
     )
 }
